@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <>
-      <footer className="relative bg-blueGray-200 pt-8 pb-6 border-t-2 w-full md:text-center ">
+      <footer className="relative bg-gray-900 text-white pt-8 pb-6 border-t-2 w-full md:text-center ">
         <div className="container mx-auto px-4 hidden sm:block">
           <div className="flex flex-wrap text-left lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="mb-6 flex items-center ">
                 <a
                   href="https://twitter.com/PGAGI123"
-                  className="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white mr-4 lg:mr-3 xl:mr-4"
+                  className=" flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white mr-4 lg:mr-3 xl:mr-4"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" enableBackground="new 0 0 72 72" viewBox="0 0 72 72" id="twitter-x"><switch><g><path d="M42.5,31.2L66,6h-6L39.8,27.6L24,6H4l24.6,33.6L4,66
             h6l21.3-22.8L48,66h20L42.5,31.2z M12.9,10h8l38.1,52h-8L12.9,10z"></path></g></switch></svg>
@@ -89,7 +89,7 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4 ">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2 hidden md:block">Other Resources</span>
+                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2 md:block">Other Resources</span>
                   <ul className="list-unstyled hidden md:block">
                     <li>
                       <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">MIT License</a>
@@ -134,7 +134,7 @@ const Footer = () => {
 
             <a
                   href="https://twitter.com/PGAGI123"
-                  className="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white mr-4 lg:mr-3 xl:mr-4"
+                  className="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white lg:mr-3 xl:mr-4"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" enableBackground="new 0 0 72 72" viewBox="0 0 72 72" id="twitter-x"><switch><g><path d="M42.5,31.2L66,6h-6L39.8,27.6L24,6H4l24.6,33.6L4,66
             h6l21.3-22.8L48,66h20L42.5,31.2z M12.9,10h8l38.1,52h-8L12.9,10z"></path></g></switch></svg>
@@ -185,7 +185,7 @@ const Footer = () => {
               {/* LinkedIn icon */}
               {/* Instagram icon */}
             </div>
-            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2 whitespace-nowrap">Useful Links</span>
+            <span className="block uppercase text-gray-500 text-sm font-semibold mb-2 whitespace-nowrap">Useful Links</span>
             <ul className="list-unstyled">
             <li>
   <Link href="/aboutus" className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm whitespace-nowrap">
@@ -207,7 +207,7 @@ const Footer = () => {
             {/* Other Resources */}
           </div>
           <hr className="my-6 border-blueGray-300" />
-          <div className="flex justify-center items-center  text-sm text-blueGray-500 font-semibold py-1 whitespace-nowrap">
+          <div className="flex justify-center items-center  text-sm text-gray-500  font-semibold py-1 whitespace-nowrap">
             Copyright © <span id="get-current-year">2024</span>
             <a href="https://www.creative-tim.com/product/notus-js" className="text-blueGray-500 hover:text-gray-800" target="_blank" whitespace-nowrap> PG-AGI</a>
           </div>
