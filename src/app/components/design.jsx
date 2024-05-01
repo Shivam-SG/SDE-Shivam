@@ -10,7 +10,7 @@ const Design = () => {
       <div className="grid justify-center">
         <div className="w-full">
           <h1 className="text-3xl sm:text-5xl font-extrabold text-center mb-20">
-            What's Trending
+            What&apos;s Trending
           </h1>
         </div>
 

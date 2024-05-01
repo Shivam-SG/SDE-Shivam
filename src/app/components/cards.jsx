@@ -79,7 +79,7 @@ const Services = () => {
               class="absolute m-auto inset-0 object-contain transition-transform transform group-hover:scale-105 duration-300"
             />
             <h1 class="text-3xl lg:text-5xl font-bold whitespace-nowrap md:text-center flex justify-center items-center relative z-[1] bg-gradient-to-r from-purple-900 to-white text-transparent bg-clip-text">
-              Here's How We Make Our <br /> Products Grow
+              Here&apos;s How We Make Our <br /> Products Grow
             </h1>
           </div>
 
