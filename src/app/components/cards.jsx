@@ -5,7 +5,7 @@ const ServicesData = [
   {
     id: 1,
     span: "Phase 1",
-    img: "/images/swirl.png ",
+    img: "/images/swirl.png",
     name: "Discovery and Feasibility",
     description:
       "Assessing AI's potential to innovate and validating the initial concept with a POC.",
@@ -21,7 +21,7 @@ const ServicesData = [
   {
     id: 3,
     span: "Phase 3",
-    img: "/images/swirl.png ",
+    img: "/images/swirl.png",
     name: "Model Development and Strategy",
     description:
       "Crafting and training bespoke AI models, strategizing for integration and scalability.",
