@@ -89,22 +89,22 @@ const Design = () => {
 
         <div className="grid grid-cols-4 gap-5">
           <div className="w-full relative rounded-xl h-24">
-            <img src="/images/book.jpeg" alt="" className="bg-cover absolute object-contain rounded-lg w-full" />
+            <Image src="/images/book.jpeg" alt="" className="bg-cover absolute object-contain rounded-lg w-full" />
             <h1 className="relative">CASE STUDY</h1>
             <p className="relative">Revolutionizing Talent Hiring Practices</p>
           </div>
           <div className="w-full relative rounded-xl">
-            <img src="/images/cup.jpeg" alt="" className="bg-cover absolute object-contain rounded-lg w-full" />
+            <Image src="/images/cup.jpeg" alt="" className="bg-cover absolute object-contain rounded-lg w-full" />
             <h1 className="relative">BLOGS</h1>
             <p className="relative">Prompt Engineering vs Prompt Tuning: A Detailed Explanation</p>
           </div>
           <div className="w-full relative rounded-xl ">
-            <img src="/images/pen.jpeg" alt="" className="bg-cover absolute object-contain rounded-lg w-full" />
+            <Image src="/images/pen.jpeg" alt="" className="bg-cover absolute object-contain rounded-lg w-full" />
             <h1 className="relative">AI NEWS</h1>
             <p className="relative">META Unveils Groundbreaking Enhancements to Its AI with Llama 3 Release</p>
           </div>
           <div className="w-full relative rounded-xl">
-            <img src="/images/space.jpeg" alt="" className="bg-cover absolute object-contain rounded-lg w-full"/>
+            <Image src="/images/space.jpeg" alt="" className="bg-cover absolute object-contain rounded-lg w-full"/>
             <h1 className="relative">TRENDS</h1>
             <p className="relative">Prompt Engineering vs Prompt Tuning: A Detailed Explanation</p>
           </div>

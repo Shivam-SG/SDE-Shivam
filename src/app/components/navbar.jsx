@@ -391,7 +391,7 @@ export default function Navbar() {
                     </li>
                   </ul>
                 </div>
-                <img
+                <Image
                   src="https://adamfard.com/static/ux-design-agency-4-f773052c59837895521f19104191f67b.jpg"
                   alt="Design Stream Subscription"
                   className="w-full h-auto mb-4"
@@ -427,7 +427,7 @@ export default function Navbar() {
                     developers.
                   </p>
                 </div>
-                <img
+                <Image
                   src="https://adamfard.com/static/ux-review-report-b4e2fc39a551aedd6130fd9020550e6b.png"
                   alt="Solution 4 Image"
                   className="w-full h-auto mb-4"

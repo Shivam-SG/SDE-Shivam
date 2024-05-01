@@ -71,7 +71,7 @@ const Services = () => {
 
         <div className="container mx-auto w-3/5">
           <div class="mb-auto text-center bg-[white]/10 h-[420px] flex justify-center  rounded-xl  relative backdrop-filter backdrop-blur-[150px]">
-            <img
+            <Image
               src="/images/swirl.png"
               alt=""
               class="absolute m-auto inset-0 w-[15rem] h-[15rem] object-contain transition-transform transform group-hover:scale-105 duration-300"
@@ -89,7 +89,7 @@ const Services = () => {
                   className="flex bg-[white]/10 rounded-2xl mb-5 bg- relative shadow-xl h-[420px] justify-center items-center backdrop-filter backdrop-blur-[150px]"
                 >
                   <div className="mt-5 h-[432px] w-[240px] flex items-center justify-center overflow-hidden mx-auto">
-                    <img
+                    <Image
                       src={service.img}
                       alt=""
                       className="max-h-full max-w-full animate-bounce animate-move-left-to-right"
