@@ -172,9 +172,9 @@ const Design = () => {
                 </p>
                 <p className="mt-[8rem]">
                   In a market crowded with established AI assistants like
-                  OpenAI's ChatGPT, Microsoft's Copilot, and Anthropic's Claude,
-                  we are poised to redefine the landscape," Zuckerberg shared
-                  with The Verge. "With these enhancements, Meta AI is set to
+                  OpenAI&apos;s ChatGPT, Microsoft&apos;s Copilot, and Anthropic&apos;s Claude,
+                  we are poised to redefine the landscape, &lsquo;Zuckerberg shared
+                  with The Verge.&rsquo; With these enhancements, Meta AI is set to
                   become a major contender in the AI assistant space.
                 </p>
               </div>
