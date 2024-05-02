@@ -85,15 +85,15 @@ export default function Navbar() {
         <div className="header-links contents font-semibold text-base lg:text-base">
           <ul className="flex items-center ml-4 lg:ml-5 xl:ml-2 lg:mr-8">
             <li className="p-2.5 xl:p-6 text-center hover:border-b-2 hover:border-blue-500">
-              <a className="text-decoration-none cursor-pointer">What we do</a>
+              <a href="#" className="text-decoration-none cursor-pointer">What we do</a>
             </li>
             <li className="p-2.5 xl:p-6 text-center hover:border-b-2 hover:border-blue-500">
-              <a className="text-decoration-none cursor-pointer">
+              <a href="#" className="text-decoration-none cursor-pointer">
                 What we think
               </a>
             </li>
             <li className="p-2.5 xl:p-6 text-center hover:border-b-2 hover:border-blue-500">
-              <a className="text-decoration-none cursor-pointer">What we are</a>
+              <a href="#" className="text-decoration-none cursor-pointer">What we are</a>
             </li>
           </ul>
         </div>
