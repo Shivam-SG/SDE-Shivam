@@ -65,37 +65,36 @@ export default function HeroSection() {
 
   return (
     <div className="bg-black relative">
-  <div className="topblur rounded-3xl absolute w-8 h-8 min-w-[15rem] min-h-[15rem] top-[12rem] left-[10vw] border bg-purple-500 filter blur-[100px] z-0" />
-  <div className="bottomblur absolute w-1 h-1 min-w-[15rem] min-h-[150px] bottom-[-28px] right-[10vw] border-[6px] bg-green-300 filter blur-[100px] z-0" />
-  <div className="container max-w-screen-xl mx-auto px-4 bg-black">
-    {/* Heading and Navbar button */}
-    <div className="flex justify-center">
-      <div className="grid text-center">
-        {/* Content */}
-        <div className="text-white mt-[12rem]">
-          <h6 className="text-[18px] bg-gradient-to-r from-purple-600 to-white text-transparent bg-clip-text">
-            Start your AI journey with us
-          </h6>
-          <h1 className="text-[48px]">Your Go-To Consultancy For</h1>
-          <h4 className="text-[48px] text-blue-700">AI Solution</h4>
-        </div>
-        <div className="w-full mt-10 mb-[12rem] flex ml-[5rem] gap-4 md:flex-row py-0 px-6 md:justify-start justify-between items-center lg:gap-6 md:gap-6">
-          <div className="w-full md:w-auto ">
-            <Calendlylink />
+      <div className="topblur rounded-3xl absolute w-8 h-8 min-w-[15rem] min-h-[15rem] top-[12rem] left-[10vw] border bg-purple-500 filter blur-[100px] z-0" />
+      <div className="bottomblur absolute w-1 h-1 min-w-[15rem] min-h-[150px] bottom-[-28px] right-[10vw] border-[6px] bg-green-300 filter blur-[100px] z-0" />
+      <div className="container max-w-screen-xl mx-auto px-4 bg-black">
+        {/* Heading and Navbar button */}
+        <div className="flex justify-center">
+          <div className="grid text-center">
+            {/* Content */}
+            <div className="text-white mt-[12rem]">
+              <h6 className="text-[18px] bg-gradient-to-r from-purple-600 to-white text-transparent bg-clip-text">
+                Start your AI journey with us
+              </h6>
+              <h1 className="text-[48px]">Your Go-To Consultancy For</h1>
+              <h4 className="text-[48px] text-blue-700">AI Solution</h4>
+            </div>
+            <div className="w-full mt-10 mb-[12rem] flex ml-[5rem] gap-4 md:flex-row py-0 px-6 md:justify-start justify-between items-center lg:gap-6 md:gap-6">
+              <div className="w-full md:w-auto ">
+                <Calendlylink />
+              </div>
+              <button className=" border border-gray-500 text-white font-bold py-4 px-6 rounded-lg inline-flex items-center gap-3 text-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl cursor-pointer">
+                <Mysvg />
+                <span>See case studies</span>
+              </button>
+            </div>
           </div>
-          <button className=" border border-gray-500 text-white font-bold py-4 px-6 rounded-lg inline-flex items-center gap-3 text-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl cursor-pointer">
-            <Mysvg />
-            <span>See case studies</span>
-          </button>
         </div>
+        {/* Mobile Navbar */}
+        {isNavbarOpen && (
+          <Mobilenavbar closeNavbar={() => setIsNavbarOpen(false)} />
+        )}
       </div>
     </div>
-    {/* Mobile Navbar */}
-    {isNavbarOpen && (
-      <Mobilenavbar closeNavbar={() => setIsNavbarOpen(false)} />
-    )}
-  </div>
-</div>
-
   );
 }

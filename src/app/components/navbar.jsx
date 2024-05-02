@@ -65,41 +65,9 @@ export default function Navbar() {
       </div>
     </div>
   </div>
-  <div className="bg-black text-white border-b-2 md:hidden flex justify-between items-center h-24 px-8 mt-6">
-    {/* Logo */}
-    <div>
-      <Image
-        src="/images/pgagi.png"
-        alt="Company logo"
-        className="h-14 object-contain"
-        width={60}
-        height={60}
-      />
-      <div className="text-sm font-bold">PG-AGI</div>
-    </div>
-    {/* Navbar links */}
-    <div className="flex-1 ml-4">
-      <ul className="flex justify-evenly">
-        <li>
-          <a className="text-decoration-none">What we do</a>
-        </li>
-        <li>
-          <a className="text-decoration-none">What we think</a>
-        </li>
-        <li>
-          <a className="text-decoration-none">What we are</a>
-        </li>
-      </ul>
-    </div>
-    {/* button */}
-    <div>
-      <button className="bg-black hover:bg-blue-800 text-white py-1 px-5 rounded-lg inline-flex items-center gap-3 shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 cursor-pointer border border-blue-700">
-        Contact us
-      </button>
-    </div>
-  </div>
+  
   {/* Desktop Navbar */}
-  <div className="bg-black text-white border-b-2 h-24 hidden md:flex md:justify-evenly md:px-8 lg:px-12 xl:px-24 mt-6">
+  <div className="bg-black text-white h-24 hidden md:flex md:justify-evenly md:px-8 lg:px-12 xl:px-24 mt-6">
     {/* Logo */}
     <div className="grid xl:pl-16 md:pl-10">
       <div className="flex-shrink-0">
