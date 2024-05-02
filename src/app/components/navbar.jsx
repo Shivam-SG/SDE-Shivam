@@ -48,62 +48,63 @@ export default function Navbar() {
 
   return (
     <div className="bg-black">
-  {/* Thin horizontal blue line */}
-  <div
-    className="flex justify-center items-center h-30"
-    style={{ width: "100%" }}
-  >
-    <div className="pt-9">
-      <div className="flex justify-center items-center">
-        <span className="text-white mr-2">AI Calling Agent</span>
-        <Link href="/aboutus" className="text-white font-bold">
-          - Learn more
-        </Link>
+      {/* Thin horizontal blue line */}
+      <div
+        className="flex justify-center items-center h-30"
+        style={{ width: "100%" }}
+      >
+        <div className="pt-9">
+          <div className="flex justify-center items-center">
+            <span className="text-white mr-2">AI Calling Agent</span>
+            <Link href="/aboutus" className="text-white font-bold">
+              - Learn more
+            </Link>
+          </div>
+          <div className="mt-2">
+            <hr className="border border-gray-600 w-[90%] md:w-[50rem]" />
+          </div>
+        </div>
       </div>
-      <div className="mt-2">
-        <hr className="border border-gray-600 w-[90%] md:w-[50rem]" />
-      </div>
-    </div>
-  </div>
-  
-  {/* Desktop Navbar */}
-  <div className="bg-black text-white h-24 hidden md:flex md:justify-evenly md:px-8 lg:px-12 xl:px-24 mt-6">
-    {/* Logo */}
-    <div className="grid xl:pl-16 md:pl-10">
-      <div className="flex-shrink-0">
-        <Image
-          src="/images/pgagi.png"
-          alt="Company logo"
-          className="h-14 object-contain"
-          width={60}
-          height={60}
-        />
-      </div>
-      <div className="text-sm font-bold ml-1">PG-AGI</div>
-    </div>
-    {/* Navbar links */}
-    <div className="header-links contents font-semibold text-base lg:text-base ">
-      <ul className="flex items-center ml-4  lg:ml-5 xl:ml-2 lg:mr-8">
-        <li className="p-2.5 xl:p-6 text-center">
-          <a className="text-decoration-none">What we do</a>
-        </li>
-        <li className="p-2.5 xl:p-6 text-center">
-          <a className="text-decoration-none">What we think</a>
-        </li>
-        <li className="p-2.5 xl:p-6 text-center">
-          <a className="text-decoration-none">What we are</a>
-        </li>
-      </ul>
-    </div>
-    {/* button */}
-    <div className="md:lg:-ml-12 flex items-center gap-5">
-      <button className="bg-black hover:bg-blue-800 text-white py-1 px-5 rounded-lg inline-flex items-center gap-3 shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 cursor-pointer border border-blue-700">
-        Contact us
-      </button>
-    </div>
-  </div>
 
+      {/* Desktop Navbar */}
+      <div className="bg-black text-white h-24 hidden md:flex md:justify-evenly md:px-8 lg:px-12 xl:px-24 mt-6">
+        {/* Logo */}
+        <div className="grid xl:pl-16 md:pl-10">
+          <div className="flex-shrink-0">
+            <Image
+              src="/images/pgagi.png"
+              alt="Company logo"
+              className="h-14 object-contain"
+              width={60}
+              height={60}
+            />
+          </div>
+          <div className="text-sm font-bold ml-1">PG-AGI</div>
+        </div>
+        {/* Navbar links */}
+        <div className="header-links contents font-semibold text-base lg:text-base">
+          <ul className="flex items-center ml-4 lg:ml-5 xl:ml-2 lg:mr-8">
+            <li className="p-2.5 xl:p-6 text-center hover:border-b-2 hover:border-blue-500">
+              <a className="text-decoration-none cursor-pointer">What we do</a>
+            </li>
+            <li className="p-2.5 xl:p-6 text-center hover:border-b-2 hover:border-blue-500">
+              <a className="text-decoration-none cursor-pointer">
+                What we think
+              </a>
+            </li>
+            <li className="p-2.5 xl:p-6 text-center hover:border-b-2 hover:border-blue-500">
+              <a className="text-decoration-none cursor-pointer">What we are</a>
+            </li>
+          </ul>
+        </div>
 
+        {/* button */}
+        <div className="md:lg:-ml-12 flex items-center gap-5">
+          <button className="bg-black hover:bg-blue-800 text-white py-1 px-5 rounded-lg inline-flex items-center gap-3 shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 cursor-pointer border border-blue-700">
+            Contact us
+          </button>
+        </div>
+      </div>
 
       {/* AI Resources Section */}
       {showAIResources && (
